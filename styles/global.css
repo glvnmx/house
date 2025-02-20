@@ -1,0 +1,32 @@
+/*- Сброс отступов и полей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*- Убираем стандартные стили списков */
+ul, ol {
+  list-style: none;
+}
+
+/*- Убираем подчёркивание у ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*- Убираем стандартные стили кнопок */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/*- Убираем стандартные стили для изображений */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
