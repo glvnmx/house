@@ -1,21 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>House</title>
-  <link rel="stylesheet" href="./fonts/Raleway-Medium.woff2">
-  <link rel="stylesheet" href="./styles/global.css.css">
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  <header class="header"></header>
-  <main class="content">
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-  </main>
-  <footer class="footer"></footer>
-</body>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House</title>
+    <link rel="stylesheet" href="./fonts/Raleway-Medium.woff2" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">
+          <a href="#0"><img src="./images/logo.svg" alt="Логотип" /></a>
+        </div>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-list-item">
+              <a href="#0" class="header__menu-link">Репродукции</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a href="#0" class="header__menu-link">Новинки</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a href="#0" class="header__menu-link">О нас</a>
+            </li>
+            <li class="header__menu-list-item">
+              <a href="#0" class="header__menu-link"
+                ><img src="./images/buy.png" alt="Ссылка корзины"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero">
+        <picture class="hero__image"
+          ><img src="./images/bird.png" alt="Фото продукта птицы"
+        /></picture>
+        <div class="hero__content">
+          <h1 class="hero__title">Реплики картин от <span>Ink. House</span></h1>
+          <p class="hero__text">
+            Высокое качество отрисовки на плотной бумаге или льняном холсте.
+            Редкие произведения, доступные цены.
+          </p>
+          <button class="button hero__button">Продукция</button>
+        </div>
+      </section>
+      <section class="catalog">
+        <div class="container">
+          <div class="catalog__header">
+            <h2 class="title catalog__title">Репродукции</h2>
+            <ul class="catalog__list">
+              <li class="catalog__list-item">
+                <button class="button catalog__button catalog__active-button">
+                  Франция
+                </button>
+              </li>
+              <li class="catalog__list-item">
+                <button class="button catalog__button">Германия</button>
+              </li>
+              <li class="catalog__list-item">
+                <button class="button catalog__button">Англия</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="catalog__products">
+          <li class="catalog__list-item">
+            <article class="product">
+              <picture class="product__image"
+                ><img src="./images/1.jpg" alt="Картина Охота Амура"
+              /></picture>
+              <div class="product__content">
+                <span class="product__author">Марсель Руссо</span>
+                <h3 class="product__title">Охота Амура</h3>
+                <span class="product__props">Холст, масло (50х80)</span>
+                <div class="product__price">14 500 руб</div>
+                <button class="button product__price">В корзину</button>
+              </div>
+            </article>
+          </li>
+          <li class="catalog__list-item">
+            <article class="product">
+              <picture class="product__image"
+                ><img src="./images/1.jpg" alt="Картина Охота Амура"
+              /></picture>
+              <div class="product__content">
+                <span class="product__author">Марсель Руссо</span>
+                <h3 class="product__title">Охота Амура</h3>
+                <span class="product__props">Холст, масло (50х80)</span>
+                <div class="product__price">14 500 руб</div>
+                <button class="button product__price">В корзину</button>
+              </div>
+            </article>
+          </li>
+          <li class="catalog__list-item">
+            <article class="product">
+              <picture class="product__image"
+                ><img src="./images/1.jpg" alt="Картина Охота Амура"
+              /></picture>
+              <div class="product__content">
+                <span class="product__author">Марсель Руссо</span>
+                <h3 class="product__title">Охота Амура</h3>
+                <span class="product__props">Холст, масло (50х80)</span>
+                <div class="product__price">14 500 руб</div>
+                <button class="button product__price">В корзину</button>
+              </div>
+            </article>
+          </li>
+          <li class="catalog__list-item">
+            <article class="product">
+              <picture class="product__image"
+                ><img src="./images/1.jpg" alt="Картина Охота Амура"
+              /></picture>
+              <div class="product__content">
+                <span class="product__author">Марсель Руссо</span>
+                <h3 class="product__title">Охота Амура</h3>
+                <span class="product__props">Холст, масло (50х80)</span>
+                <div class="product__price">14 500 руб</div>
+                <button class="button product__price">В корзину</button>
+              </div>
+            </article>
+          </li>
+          <li class="catalog__list-item">
+            <article class="product">
+              <picture class="product__image"
+                ><img src="./images/1.jpg" alt="Картина Охота Амура"
+              /></picture>
+              <div class="product__content">
+                <span class="product__author">Марсель Руссо</span>
+                <h3 class="product__title">Охота Амура</h3>
+                <span class="product__props">Холст, масло (50х80)</span>
+                <div class="product__price">14 500 руб</div>
+                <button class="button product__price">В корзину</button>
+              </div>
+            </article>
+          </li>
+          <li class="catalog__list-item">
+            <article class="product">
+              <picture class="product__image"
+                ><img src="./images/1.jpg" alt="Картина Охота Амура"
+              /></picture>
+              <div class="product__content">
+                <span class="product__author">Марсель Руссо</span>
+                <h3 class="product__title">Охота Амура</h3>
+                <span class="product__props">Холст, масло (50х80)</span>
+                <div class="product__price">14 500 руб</div>
+                <button class="button product__price">В корзину</button>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>

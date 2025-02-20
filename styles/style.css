@@ -1,6 +1,156 @@
 body {
-  font-family: 'Raleway', Arial, sans-serif;
-  font-size: 18px;
+  width: 100%;
+  color: #2c2d35;
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 500;
+  font-size: 18px;
   font-style: normal;
+}
+
+header {
+  padding: 31px 0;
+  background-color: #e1ede6;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 143px;
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 60px;
+  color: #2c2d35;
+  font-size: 20px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.hero__image {
+  grid-column: 6 span;
+}
+
+.hero__content {
+  grid-column: 6 span;
+  padding-top: 145px;
+}
+
+.hero__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.hero__title span {
+  color: #598d66;
+}
+
+.hero__text {
+  margin-top: 20px;
+  color: #86928b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.button {
+  border: 1px solid #598d66;
+  padding: 21px 60px;
+  color: #598d66;
+  font-weight: 500;
+  font-size: 20px;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #f4f6f5;
+  background-color: #598d66;
+}
+
+.hero__button {
+  min-width: 227px;
+  margin-top: 60px;
+}
+
+.catalog {
+  margin-top: 70px;
+}
+
+.catalog__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  
+}
+
+.title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.catalog__list {
+  display: flex;
+  gap: 32px;
+}
+
+.catalog__button {
+  width: 126px;
+  border-color: #e1ede6;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #e1ede6;
+}
+
+.catalog__active-button {
+  border-color: #376B44;
+  color: #f4f6f5;
+  background-color: #376B44;
+}
+
+.catalog__products {
+
+}
+
+.product {
+
+}
+
+.product__image {
+
+}
+
+.product__content {
+
+}
+
+.product__author {
+
+}
+
+.product__title {
+
+}
+
+.product__props {
+
+}
+
+.product__price {
+
 }
