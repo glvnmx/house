@@ -111,7 +111,7 @@ body {
 
 .catalog__list {
   display: flex;
-  gap: 32px;
+  gap: 25px;
 }
 
 .catalog__button {
@@ -177,7 +177,7 @@ body {
 .promo {
   position: relative;
   margin-top: 70px;
-  padding: 70px 0;
+  padding: 50px 0;
   background-image: url(../images/promo_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,6 +203,7 @@ body {
   padding-top: 20px;
   color: #fff;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 .promo__text:nth-child(n + 2) {
@@ -210,7 +211,7 @@ body {
 }
 
 .button__promo {
-  margin-top: 50px;
+  margin-top: 60px;
   color: #2c2d35;
   font-weight: 500;
   font-size: 20px;
@@ -228,7 +229,7 @@ body {
 }
 
 .about {
-  margin-top: 70px;
+  margin-top: 87px;
 }
 
 .about__image {
@@ -264,7 +265,7 @@ body {
 
 .footer__container {
   display: flex;
-  padding: 23px 0;
+  padding: 23px 15px;
 }
 
 .footer__left {
