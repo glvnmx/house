@@ -84,6 +84,10 @@ body {
   background-color: #598d66;
 }
 
+.button:active {
+  background-color: #376B44;
+}
+
 .hero__button {
   min-width: 227px;
   margin-top: 60px;
@@ -219,6 +223,10 @@ body {
   background-color: #2c2d35;
 }
 
+.button__promo:active {
+  background-color: #000;
+}
+
 .about {
   margin-top: 70px;
 }
@@ -238,8 +246,8 @@ body {
 
 .about__text {
   margin-top: 20px;
-  font-size: 18px;
   font-weight: 500;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -248,3 +256,96 @@ body {
   gap: 30px;
   margin-top: 20px;
 }
+
+.footer {
+  margin-top: 70px;
+  background-color: #e1ede6;
+}
+
+.footer__container {
+  display: flex;
+  padding: 23px 0;
+}
+
+.footer__left {
+  margin-right: 115px;
+}
+
+.footer__nubmer {
+  display: block;
+  margin-top: 35px;
+  color: #2c2d35;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer__number-name {
+  margin-top: 8px;
+  color: #86928b;
+  font-weight: 500;
+}
+
+.footer__right {
+  display: flex;
+} 
+
+.footer__menu {
+  display: flex;
+  gap: 60px;
+  margin-right: 248px;
+}
+
+.footer__menu-col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer__menu-title {
+  color: #2c2d35;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer__menu-list-item {
+  font-weight: 500;
+}
+
+.footer__item-link {
+  color: #86928b;
+}
+
+.footer__item-link:hover {
+  color: #598d66;
+}
+
+.footer__item-link:active {
+  color: #376B44;
+}
+
+.footer__props {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__other-info {
+  color: #86928b;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.footer__other-info-text:nth-child(n + 2) {
+  margin-top: 6px;
+} 

@@ -14,7 +14,21 @@ ul, ol {
 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  -ms-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
 }
+
+a:hover {
+  color: #86928b;
+}
+
+a:active {
+  color: #000;
+}
+
 
 /*- Убираем стандартные стили кнопок */
 button {
